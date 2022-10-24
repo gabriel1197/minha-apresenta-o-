@@ -95,3 +95,59 @@
         </li>
       </nav>
     </div>
+    
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  background-color: #b7daf1;
+  background-attachment: fixed;
+  background-position: 50% right;
+  margin-top: 0px;
+}
+
+h2,
+h1 {
+  text-shadow: 1pt 1pt 1pt #fa84d5;
+}
+
+.meio {
+  text-align: center;
+  text-shadow: 1pt 1pt 1pt #fa84d5;
+}
+
+.imagem {
+  margin-left: 12em;
+  box-shadow: 5pt 5pt 5pt;
+}
+
+p {
+  text-align: center;
+  text-align: justify;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 12pt;
+  box-shadow: 5pt 5pt 20pt #ecb8dc;
+  width: 600pt;
+  margin: auto;
+  padding: 80pt;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -70px;
+}
+
+.cards {
+  display: flexbox;
+  text-align: center;
+  margin: 2px 2px 2px 2px;
+}
+
+.cards img:hover {
+  transform: scale(0.9) translateY(-5px);
+  cursor: pointer;
+}
+
+nav {
+  margin-top: 1em;
+  margin-bottom: 1px;
+}
